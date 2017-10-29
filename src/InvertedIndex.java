@@ -4,6 +4,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.TreeSet;
 
+/**
+The initial implementation for the invertedIndex, which is discarded.
+*/
 public class InvertedIndex {
 
 	private ArrayList<Document> docList;
