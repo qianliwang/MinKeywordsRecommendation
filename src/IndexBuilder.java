@@ -9,6 +9,12 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
+/**
+The class that builds an inverted index for a set of documents. The index is implemented by a HashMap which records a 
+term and the number of documents it appears. The posting is implemented by a HashMap which records a term and the list of
+all documents it appears. Once the index has been built, a hillClibming algorithm is also implemented to find a set of keywords
+that makes a target document ranking highest.
+*/
 public class IndexBuilder {
 
 	private String folderPath;
