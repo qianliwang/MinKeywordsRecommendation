@@ -13,6 +13,10 @@ import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ The class to build the tf-idf model for each document.
+
+*/
 public class Document implements Comparable<Document>{
 
 	private HashMap<String,Integer> terms;
