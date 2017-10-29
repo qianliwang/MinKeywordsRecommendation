@@ -2,7 +2,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-
+/**
+This class is used to return the most similar document within a set of docuemnts for the given document, which is an extended 
+class in information retrieval. The cosine similarity is adopted. 
+*/
 public class QueryProcessor {
 
 	private IndexBuilder index;
