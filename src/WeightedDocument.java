@@ -1,8 +1,8 @@
 import java.util.Comparator;
 
 /**
-This class is a light-weighted class that stores only the document name and its weight, which is used in IndexBuilder class, 
-for the computation of the ranking in IndexBuilder.
+This class is a light-weighted class that stores only the document name and its weight, which is used for the computation of 
+the ranking of documents, the class is discarded as well as InvertedIndex. 
 */
 public class WeightedDocument {
 	private String fileName;
